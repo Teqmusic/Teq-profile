@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Teq</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Noto+Sans+JP:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+--accent:#1d2a52;
+--bg:#fafafa;
+--text:#222;
+--line:#d9deea;
+}
+body{
+margin:0;background:var(--bg);color:var(--text);
+font-family:'Noto Sans JP',sans-serif;
+}
+.container{max-width:1000px;margin:auto;padding:24px;}
+header{text-align:center;padding:40px 0;}
+.icon{width:180px;height:180px;border-radius:50%;object-fit:cover;box-shadow:0 8px 20px rgba(0,0,0,.08);}
+h1{
+font-family:'Cormorant Garamond',serif;
+font-size:5rem;font-weight:700;color:var(--accent);
+margin:10px 0;
+}
+.subtitle{
+font-family:'Cormorant Garamond',serif;
+font-size:2rem;color:var(--accent);
+}
+.intro{max-width:720px;margin:24px auto;line-height:2;}
+.divider{
+display:flex;align-items:center;margin:50px 0;color:var(--accent);
+}
+.divider:before,.divider:after{
+content:"";flex:1;height:1px;background:var(--line);
+}
+.divider span{padding:0 18px;}
+h2{
+font-family:'Cormorant Garamond',serif;
+font-size:3rem;color:var(--accent);margin-bottom:20px;
+}
+.works-grid{
+display:grid;grid-template-columns:repeat(2,1fr);gap:24px;
+}
+.work-card{text-decoration:none;color:#222;}
+.work-card img{
+width:100%;border-radius:14px;display:block;
+box-shadow:0 6px 18px rgba(0,0,0,.08);
+}
+.work-card h3{margin:10px 0 0;}
+.link-grid{
+display:grid;grid-template-columns:repeat(3,1fr);gap:16px;
+}
+.link-grid a{
+text-decoration:none;color:var(--accent);
+border:1px solid var(--line);padding:18px;border-radius:12px;
+text-align:center;background:white;
+}
+.contact{
+border:1px solid var(--line);
+background:white;border-radius:14px;padding:24px;
+}
+@media(max-width:768px){
+.works-grid,.link-grid{grid-template-columns:1fr;}
+h1{font-size:3.5rem;}
+}
+</style>
+</head>
+<body>
+<div class="container">
+<header>
+<div class="divider"><span>✦</span></div>
+<img src="icon.jpg" class="icon">
+<h1>Teq</h1>
+<div class="subtitle">Composer / Music Creator</div>
+<div class="intro">
+<p>劇伴音楽やクラシック音楽などに影響を受け、音楽制作を行っています。</p>
+<p>生楽器を活かした音作りを得意とし、ボーカロイド楽曲や楽譜制作を行っています。</p>
+</div>
+</header>
+
+<div class="divider"><span>✦</span></div>
+
+<h2>Profile</h2>
+<p>生楽器が好きで、普段からクラシック音楽を嗜んでいます。</p>
+<p>音源制作から楽譜制作まで対応可能です。</p>
+<p>ボーカロイド楽曲、クラシカルな楽曲、BGM等を中心に制作しています。</p>
+
+<div class="divider"><span>✦</span></div>
+
+<h2>Original</h2>
+<div class="works-grid">
+<a class="work-card" href="https://youtu.be/UmJzQL87qNQ" target="_blank">
+<img src="https://img.youtube.com/vi/UmJzQL87qNQ/hqdefault.jpg"><h3>わかれみち</h3></a>
+<a class="work-card" href="https://youtu.be/H4rdZOv_ZB8" target="_blank">
+<img src="https://img.youtube.com/vi/H4rdZOv_ZB8/hqdefault.jpg"><h3>夏の日の想い出</h3></a>
+<a class="work-card" href="https://youtu.be/PDAb_H03QMM" target="_blank">
+<img src="https://img.youtube.com/vi/PDAb_H03QMM/hqdefault.jpg"><h3>星づくり</h3></a>
+<a class="work-card" href="https://youtu.be/gsRU-5ewjrs" target="_blank">
+<img src="https://img.youtube.com/vi/gsRU-5ewjrs/hqdefault.jpg"><h3>まどろみ雲</h3></a>
+</div>
+
+<div class="divider"><span>✦</span></div>
+
+<h2>Links</h2>
+<div class="link-grid">
+<a href="https://x.com/Teq_music">X</a>
+<a href="https://www.youtube.com/channel/UC5Sxjfl3_uz_jJGAEJf_OvQ">YouTube</a>
+<a href="https://www.nicovideo.jp/user/124940749">Niconico</a>
+</div>
+
+<div class="divider"><span>✦</span></div>
+
+<h2>Contact</h2>
+<div class="contact">
+現在、依頼の受付は行っておりませんが、僕にできることであればメールにてご相談を受け付けております。<br><br>
+Mail : Teq.works1104@gmail.com
+</div>
+</div>
+</body>
+</html>
